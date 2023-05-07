@@ -18,7 +18,7 @@ public class FileExample implements OneInterfaceToRunThemAll {
 
   @Override
   public void runExample() {
-    System.out.println("*** Files ***");
+    System.out.println("\n*** Files ***");
     createFiles();
     // writeFiles();
     // readFiles();

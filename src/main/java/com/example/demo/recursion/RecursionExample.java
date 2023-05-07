@@ -6,7 +6,7 @@ public class RecursionExample implements OneInterfaceToRunThemAll {
 
   @Override
   public void runExample() {
-    System.out.println("*** Recursion ***");
+    System.out.println("\n*** Recursion ***");
 
     int n = 3;
     System.out.print("Tail recursion: ");
