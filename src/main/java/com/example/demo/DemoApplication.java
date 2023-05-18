@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.example.demo.concurrency.ConcurrencyExample;
 import com.example.demo.files.FileExample;
 import com.example.demo.formatters.FormatterExample;
 import com.example.demo.recursion.RecursionExample;
@@ -19,7 +20,8 @@ public class DemoApplication {
 		List<OneInterfaceToRunThemAll> theList = new ArrayList<>();
 		// theList.add(new RecursionExample());
 		// theList.add(new FormatterExample());
-		theList.add(new FileExample());
+		// theList.add(new FileExample());
+		theList.add(new ConcurrencyExample());
 
 		for (OneInterfaceToRunThemAll theOneInterface : theList) {
 			theOneInterface.runExample();
